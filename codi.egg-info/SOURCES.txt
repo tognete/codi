@@ -1,0 +1,16 @@
+README.md
+setup.py
+codi.egg-info/PKG-INFO
+codi.egg-info/SOURCES.txt
+codi.egg-info/dependency_links.txt
+codi.egg-info/entry_points.txt
+codi.egg-info/requires.txt
+codi.egg-info/top_level.txt
+src/__init__.py
+src/cli.py
+src/main.py
+src/core/__init__.py
+src/core/agent.py
+src/integrations/__init__.py
+src/integrations/github_integration.py
+src/integrations/slack_bot.py

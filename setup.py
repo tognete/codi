@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="codi",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "openai>=1.0.0",
+        "python-dotenv==1.0.0",
+        "fastapi>=0.109.0",
+        "uvicorn>=0.27.0",
+        "pydantic>=2.6.0",
+        "python-multipart>=0.0.9",
+        "httpx>=0.26.0",
+        "pytest>=8.0.0",
+        "black>=24.1.0",
+        "isort>=5.13.0",
+        "mypy>=1.8.0",
+        "ruff>=0.2.0",
+        "click>=8.0.0",
+        "slack-bolt>=1.18.0",
+        "PyGithub>=2.1.1"
+    ],
+    entry_points={
+        'console_scripts': [
+            'codi=src.cli:cli',
+        ],
+    },
+) 
